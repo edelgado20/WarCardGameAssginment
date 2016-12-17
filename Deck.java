@@ -45,4 +45,23 @@ public class Deck {
     {
         return cards.get(i);
     }
+    // Checks if thers no more cards on the deck
+    public boolean noMoreCards()
+    {
+        if(cards.size() == 0)
+            return false;
+        else
+            return true;
+    }
+    // Displays players card one by one
+    public void displayCard(List<Card> cards)
+    {
+        System.out.println(cards.get(0));
+    }
+
+    public void displaySkipCard(List<Card> cards)
+    {
+        System.out.println(cards.get(2));
+    }
+
 }
