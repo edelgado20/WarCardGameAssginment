@@ -1,2 +1,1 @@
-# WarCardGameAssginment
-Last Class Assignment for Java
+War Card Game
